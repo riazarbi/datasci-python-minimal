@@ -1,4 +1,8 @@
-FROM riazarbi/docker-r-drivers:latest
+FROM riazarbi/datasci-drivers:latest
+
+LABEL authors="Riaz Arbi,Gordon Inggs"
+
+USER root
 
 # PYTHON ======================================================================
 # Infrastructure-dependent prerequisites
